@@ -1,0 +1,103 @@
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 300px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.header-left a{
+    color:#fff;
+    background-color:transparent ;
+}
+.header a{
+    color: #fff;
+}
+.header-right a{
+    color:#fff;
+}
+.header-right a:hover{
+    background-color: rgb(255 20 129);
+}
+.header-left a:hover{
+    background-color: rgb(255 20 129);
+}
+.header {
+    overflow: hidden;
+    background-color: #a16068;
+    padding: 10px 55px 10px 10px;
+}
+.header-right .search:hover{
+    background-color:transparent ;
+}
+.header a.logo:hover{
+    background-color: transparent;
+}
+.search input{
+    margin-left: 10px;
+}
+.btn-primary {
+    color: #fff;
+    background-color:darkmagenta;
+    border-color:transparent;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color:lightsteelblue;
+    border-color:transparent;
+}.btn-primary a{
+    outline: none;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color:darkmagenta;
+    box-shadow: none;
+} 
+.btn-primary:active:focus {
+    box-shadow:none;
+}
+.gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    color: #fff;
+}
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}

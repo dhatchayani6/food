@@ -1,0 +1,14 @@
+.row{
+    padding: 39px;
+}
+form{
+    margin-left: 80px;
+    margin-top: 85px;
+}
+button{
+    cursor: pointer;
+    background: rgb(77, 77, 199);
+    color: #fff;
+    padding: 10px;
+    width: 35%;
+}
