@@ -63,6 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="col-lg-6">
                     <form method="post">
                         <h2>LOGIN PAGE</h2>
+                        <h2>ADMIN  PAGE</h2>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
