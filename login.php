@@ -73,6 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
                         </div>
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
                     </form>
                 </div>
                 <div class="col-lg-6">
